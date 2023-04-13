@@ -1,0 +1,46 @@
+@media (max-width: 1280px){
+    .conteiner-geral {
+        width: 95%;
+    }
+    .rodape {
+        font-size: 15px;
+    }
+}
+
+
+ @media (max-width: 1150px){
+    .conteiner-geral {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteiner-navegacao {
+        background-color: inherit;
+    }
+
+    .conteiner-navegacao .logo {
+        align-items: center;
+
+    }
+
+ .barra-navegacao  {
+        display: none;
+ }
+
+    .button-group {
+        display: none;
+    }
+
+    .conteiner-conteudo{
+        width: 70%;
+        height: 50%;
+
+    }
+
+    .rodape {
+        font-size: 15px;
+        padding: 2rem;
+    }
+ }
